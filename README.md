@@ -1,11 +1,11 @@
-# Digital Cow Hut Backend Assignment
+# Digital Cow Hut Backend Tasks
 
 <hr>
 ### Project
 
-### Assignment Name: Online Cow Selling Backend for Eid Ul Adha
+### Tasks Name: Online Cow Selling Backend for Eid Ul Adha
 
-You have been assigned the task of building the backend for an Online Cow Selling platform in preparation for Eid Ul Adha. The main focus of this assignment is to implement error handling, CRUD operations, pagination and filtering, transactions (including a simple transaction without a payment gateway), and additional routes as necessary.
+You have been assigned the task of building the backend for an Online Cow Selling platform in preparation for Eid Ul Adha. The main focus of this Tasks is to implement error handling, CRUD operations, pagination and filtering, transactions (including a simple transaction without a payment gateway), and additional routes as necessary.
 
 ### Technology Stack:
 
@@ -471,7 +471,7 @@ Response Sample Pattern:
 - 60 Marks 3 Days (Till Sunday 11.59 AM)
 - 50 Marks 1 Day (Till Monday 11.59 AM)
 
-`** In order for your assignment to be evaluated, it is essential to have a minimum of 20 meaningful commits. Please note that unnecessary commits will not be considered as part of the evaluation process.**`
+`** In order for your Tasks to be evaluated, it is essential to have a minimum of 20 meaningful commits. Please note that unnecessary commits will not be considered as part of the evaluation process.**`
 
 ### What to submit
 
