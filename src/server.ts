@@ -10,6 +10,20 @@ mongoose
   .catch((err) => console.log(`Unable to connect MongoDB ❌ ${err}`));
 
 // Listen to Server
-app.listen(port, () => {
+const server = app.listen(port, () => {
   console.log(`Server is running on port ${port} ✅`);
+});
+
+
+// Unhandled Rejection: Gracefully off the server
+process.on("unhandledRejection", (error) => {
+  console.log(`Unhandled Reject is closing the server ❌ ${error}`);
+
+  if (server) {
+    server.close(() => {
+      process.exit(1);
+    });
+  } else {
+    process.exit(1);
+  }
 });
